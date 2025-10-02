@@ -9,7 +9,7 @@ Main objectives:
 * Apply whitening and shaping filters **in the frequency domain** (not direct convolution), and reconstruct the output frame-by-frame using overlap-and-add (OLA), ensuring the COLA condition and limiting temporal aliasing.
 * Save the synthesized result into a WAV file.
 
-> All methods are implemented without using high-level functions that directly perform LPC (`lpc()`, etc.). Library functions for FFT, basic linear algebra, and WAV I/O are used.
+> All methods are implemented without using high-level functions that directly perform LPC (`lpc()`, etc.). Library functions for FFT are used.
 
 **Authors:** 
 Chiara Lunghi,
